@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: read and write
 
 jobs:
   build:
@@ -19,11 +19,11 @@ jobs:
     env:
       TZ: Asia/Shanghai
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
     - name: Set up Python 3.12
       uses: actions/setup-python@v4.0.0
       with:
-        python-version: "3.12"
+        python-version: "3.11"
         # spec: 'daily_sign.py'
     - name: Install dependencies
       run: |
