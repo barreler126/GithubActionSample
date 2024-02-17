@@ -18,5 +18,5 @@ headers = {"Connection": 'keep-alive',
            "Cookie": cookie
            }
 
-# response = re.post(url=url, headers=headers)
+response = re.get(url=url, headers=headers)
 
