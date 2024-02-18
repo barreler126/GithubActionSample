@@ -17,5 +17,5 @@ headers = {"Connection": 'keep-alive',
            }
 req = Request(url, headers=headers)
 reap = urlopen(req)
-response = request.get(url=url, headers=headers).text
+# response = request.get(url=url, headers=headers).text
 
