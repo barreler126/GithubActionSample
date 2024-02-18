@@ -30,7 +30,8 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run daily_sign
-      run: |
-        python daily_sign.py
       env:
         JD_COOKIE: ${{ secrets.JD_COOKIE }}
+      run: |
+        python daily_sign.py
+
