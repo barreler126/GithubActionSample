@@ -32,6 +32,6 @@ jobs:
     - name: Run daily_sign
       env:
         JD_COOKIE: ${{ secrets.JD_COOKIE }}
-      run: |
+      run: 
         python daily_sign.py
 
