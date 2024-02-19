@@ -3,11 +3,11 @@
 
 name: 签到薅羊毛
 
-# on:
+on:
 #   schedule:
 #     # 此处是UTC时间，对应北京时间早八点
 #     - cron : '05 08 * * *'
-#   workflow_dispatch:
+  workflow_dispatch:
 
 # permissions:
 #   contents: read
