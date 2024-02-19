@@ -31,7 +31,7 @@ name: 签到薅羊毛
 #         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 #     - name: Run daily_sign
 #       env:
-        JD_COOKIE: ${{ secrets.JD_COOKIE }}
-      run: 
-        python daily_sign.py
+      #   JD_COOKIE: ${{ secrets.JD_COOKIE }}
+      # run: 
+      #   python daily_sign.py
 
