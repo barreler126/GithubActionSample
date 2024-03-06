@@ -155,7 +155,7 @@ if st.button('确认'):
     st.components.v1.iframe(url, height=600)
 '''
 import streamlit as st
-from streamlit_chat import message
+# from streamlit_chat import message
 from streamlit.components.v1 import html
 
 def on_input_change():
